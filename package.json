@@ -19,8 +19,7 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "cy:run:record": "cypress run --record --key 3ee9bb9c-c137-4666-9fee-45aab7b2d593",
-    "cy:sync:dashboard": "cypress run --key 3ee9bb9c-c137-4666-9fee-45aab7b2d593",
-    "cy:ci": "START_SERVER_AND_TEST_INSECURE=1 start-server-and-test start http-get://localhost:3000 cy:sync:dashboard"
+    "cy:ci": "START_SERVER_AND_TEST_INSECURE=1 start-server-and-test start http-get://localhost:3000 cy:run:record"
   },
   "eslintConfig": {
     "extends": [
